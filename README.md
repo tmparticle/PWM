@@ -18,13 +18,12 @@ We introduce Policy learning with large World Models (PWM), a novel Model-Based 
 Tested only on Ubuntu 22.04. Requires Python, conda and an Nvidia GPU with >24GB VRAM.
 
 ```bash
-git clone --recursive git@github.com:imgeorgiev/PWM.git
+git clone git@github.com:imgeorgiev/PWM.git
 cd PWM
 conda env create -f environment.yaml
 conda activate pwm
 ln -s $CONDA_PREFIX/lib $CONDA_PREFIX/lib64  # hack to get CUDA to work inside conda
 pip install -e .
-pip install -e external/tdmpc2
 ```
 
 
