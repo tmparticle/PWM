@@ -11,7 +11,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 # Minimum dependencies required prior to installation
-INSTALL_REQUIRES = ["torch", "omegaconf", "hydra-core", "gym"]
+INSTALL_REQUIRES = ["torch", "omegaconf", "hydra-core", "gym", "wandb", "open3d"]
 
 # Installation operation
 setup(
