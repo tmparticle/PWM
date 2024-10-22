@@ -24,7 +24,7 @@ setup(
     url="https://github.com/imgeorgiev/pwm",
     description="PWM: Policy Learning with Large World Models",
     keywords=["robotics", "rl"],
-    include_package_data=True,
+    #include_package_data=True,
     install_requires=INSTALL_REQUIRES,
     package_dir={"": "src"},
     packages=find_packages(
